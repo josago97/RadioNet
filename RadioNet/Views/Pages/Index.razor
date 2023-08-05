@@ -1,0 +1,43 @@
+﻿@page "/"
+@using RadioBrowser;
+@using System.Globalization;
+
+<main>
+    <header>
+        <form @onsubmit="SearchAsync">
+            <InputSelect @bind-Value=Country>
+                @if (Countries != null)
+                {
+                    @foreach (KeyValuePair<string, string> country in Countries)
+                    {
+                        <option value="@country.Key">
+                            <FlagEmoji CountryCode="@country.Key" />
+                            @country.Value
+                        </option>
+                    }
+                }
+            </InputSelect>
+            <InputText type="text" @bind-Value=Query placeholder="Station name..."/>
+            <input type="submit" value="Search" />
+        </form>
+    </header>
+
+    <section class="station-list">
+        @if (IsSearching)
+        {
+            <div class="spinner-container">
+                <div class="spinner-border" role="status" />
+            </div>
+        }
+        else
+        {
+            <StationList Stations="Stations" StationSelected="OnStationSelectedAsync" />
+        }
+    </section>
+
+    <footer class="@PlayerCss">
+        <div class="player-container">
+            <Player @ref=Player />
+        </div> 
+    </footer>
+</main>

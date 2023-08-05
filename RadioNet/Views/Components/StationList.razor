@@ -1,0 +1,28 @@
+﻿@using RadioBrowser;
+
+<div class="station-list">
+    @if (Stations == null || !Stations.Any())
+    {
+        <div class="empty-message">No stations</div>
+    }
+    else
+    {
+        <ul>
+            @foreach (StationInfo station in Stations)
+            {
+                <StationSlot Station="station" Clicked="OnStationSelectedAsync" />
+            }
+        </ul>
+    }
+</div>
+
+
+@code {
+    [Parameter] public IEnumerable<StationInfo> Stations { get; set; }
+    [Parameter] public EventCallback<StationInfo> StationSelected { get; set; }
+
+    private async Task OnStationSelectedAsync(StationInfo station)
+    {
+        await StationSelected.InvokeAsync(station);
+    }
+}

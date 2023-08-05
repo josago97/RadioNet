@@ -1,0 +1,21 @@
+﻿@using RadioBrowser;
+
+<li class="station-slot" @onclick="_ => Clicked.InvokeAsync(Station)">
+    <StationIcon StationIconUrl="@Station.Favicon?.ToString()" />
+    <div>
+        <div class="name">@Station.Name</div>
+        <div>
+            <img class="flag" src="./images/flags/flag_@(Station.CountryCode.ToLower()).png" loading="lazy" />
+            <span>@Station.Bitrate kbps</span>
+            <span>@string.Join(", ", Station.Languages)</span>
+        </div>
+        <div>
+            @string.Join(", ", Station.Tags)
+        </div>
+    </div>
+</li>
+
+@code {
+    [Parameter] public StationInfo Station { get; set; }
+    [Parameter] public EventCallback<StationInfo> Clicked { get; set; }
+}

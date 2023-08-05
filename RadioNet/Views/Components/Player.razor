@@ -1,0 +1,56 @@
+﻿@using RadioBrowser
+@inject IJSRuntime JSRuntime
+
+<div class="player">
+    <div>
+        <StationIcon StationIconUrl="@Station?.Favicon?.ToString()" />
+        <span>@(Station?.Name ?? "-")</span>
+    </div>
+
+    <audio id="audio" controls>
+        <!--<source src="http://21273.live.streamtheworld.com:3690/M80RADIO_SC" type="audio/@GetCodec()">-->
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+
+@code {
+    public StationInfo Station { get; private set; }
+    private JSInteropPlayer JSPlayer { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        JSPlayer = new JSInteropPlayer(JSRuntime);
+    }
+
+    public async Task PlayAsync(StationInfo station)
+    {
+        Station = station;
+        await JSPlayer.PlayAsync(Station.UrlResolved.ToString(), GetCodec());
+        StateHasChanged();
+    }
+
+    private string GetCodec()
+    {
+        string codec = Station.Codec.ToLower();
+
+        return codec switch
+        {
+            "aac+" => "mp4",
+            _ => codec
+        };
+    }
+
+
+    private class JSInteropPlayer : JSInterop
+    {
+        public JSInteropPlayer(IJSRuntime jsRuntime) : base(jsRuntime, "./js/player.js") { }
+
+        public async Task PlayAsync(string stationUrl, string codec)
+        {
+            await this.InvokeVoidAsync("play", stationUrl, codec);
+        }
+    }
+}
