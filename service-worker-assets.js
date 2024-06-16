@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-6b6LFhi53pWRbwUKPqv6KqLAC0c204z0VrZTf3qsXtk=",
+      "hash": "sha256-4Vq3FUPyeHp7aoNyYbwloWIKTF7Qe5q0yeoed5NUJcc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -33,23 +33,23 @@
       "url": "_framework\/dotnet.native.8.0.6.cpyex55xvi.js"
     },
     {
-      "hash": "sha256-6uSOvggHz+i49RM+vJ4necXkxDKZTGhZsElLZ+jy5q4=",
+      "hash": "sha256-hGc5V7uv35g9D9Tr2KRVBFPD6sF1YWZRghKtt7yingw=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-PBCqQOgsXTMxgr3gJzvyQgLJZo4gre2r3OJp3tSsZ4Y=",
+      "hash": "sha256-Jo7BwYRw45iK2+vrvSP+7PmwJIXdC+W4AmTc9oU84GE=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Forms.wasm"
     },
     {
-      "hash": "sha256-NazFua5tdhZUDFQisjFHenApaFKQU\/JlQesGounCVcI=",
+      "hash": "sha256-A+LcmBDaxwTZdPS8hPcEJ\/cGyIGzlYZdkjwnI6S+pvA=",
       "url": "_framework\/Microsoft.AspNetCore.Components.wasm"
     },
     {
-      "hash": "sha256-vGdPauXHa5mrgrY4g5AgC9qgQBwsG2LAmv7tIFvHIIw=",
+      "hash": "sha256-zul40ry2OWsu8eO6GTrsdcSbFxRlL5YcH3mpKNMOn2U=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
-      "hash": "sha256-Lx3hm0lrkE4uOJE79pdZnKpYhH0HAaOXdsTupkOpFlg=",
+      "hash": "sha256-CJnAB0vecNnsdTMFjufveYYF2WVIbRuYKfoNF1OAEfs=",
       "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.wasm"
     },
     {
@@ -89,11 +89,11 @@
       "url": "_framework\/Microsoft.Extensions.Primitives.wasm"
     },
     {
-      "hash": "sha256-Itu7dicw+SMh8t5ofmKl2bOhp3fiGMr6+APVIh\/2c1Q=",
+      "hash": "sha256-RYe7KFnyONMSZhTpZBX+tJ3g\/RtznwPEYjjFqz7p9pc=",
       "url": "_framework\/Microsoft.JSInterop.wasm"
     },
     {
-      "hash": "sha256-nJo9AftA2\/mHxtXapqHsgjzQgIHOpue2DnVtxkgTSME=",
+      "hash": "sha256-ZyIqQss3I64BQC2gc7JEDrkYq14vXKEXuw5vBJ5oFYM=",
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
@@ -105,7 +105,7 @@
       "url": "_framework\/RadioBrowserNet.wasm"
     },
     {
-      "hash": "sha256-oBMgqpv52oQnkKKtI7oFlrxQMx\/DqsZATMbQ6w78zbg=",
+      "hash": "sha256-H2RctWG6\/GlOnxXIcsZEYnQr88FtCnlLVWKYDFRUXxo=",
       "url": "_framework\/RadioNet.wasm"
     },
     {
@@ -1341,5 +1341,5 @@
       "url": "raw\/countries.json"
     }
   ],
-  "version": "GsQRhmrt"
+  "version": "1h\/KbtGI"
 };

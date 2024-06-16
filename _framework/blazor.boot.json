@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "RadioNet",
   "resources": {
-    "hash": "sha256-5BWKWR/Sve5onhbDrAU3krq1HiY02QFQne/bB4Z1eF8=",
+    "hash": "sha256-8UKTV+gLMdnLHbIKMNX1pFTgJH7HMePOljQo7C36FcE=",
     "jsModuleNative": {
       "dotnet.native.8.0.6.cpyex55xvi.js": "sha256-uiCvGGbMxQDx9Q0FmH8d1P27qNKYKkYFWeLUCwru5Js="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.6.usxxzh3qee.js": "sha256-+E96dgYQl8OrHQb4yNZ7QwNr3SZzLSP8lwKRzwSiMsw="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-6uSOvggHz+i49RM+vJ4necXkxDKZTGhZsElLZ+jy5q4="
+      "dotnet.native.wasm": "sha256-hGc5V7uv35g9D9Tr2KRVBFPD6sF1YWZRghKtt7yingw="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -17,10 +17,10 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-PBCqQOgsXTMxgr3gJzvyQgLJZo4gre2r3OJp3tSsZ4Y=",
-      "Microsoft.AspNetCore.Components.wasm": "sha256-NazFua5tdhZUDFQisjFHenApaFKQU/JlQesGounCVcI=",
-      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-vGdPauXHa5mrgrY4g5AgC9qgQBwsG2LAmv7tIFvHIIw=",
-      "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-Lx3hm0lrkE4uOJE79pdZnKpYhH0HAaOXdsTupkOpFlg=",
+      "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-Jo7BwYRw45iK2+vrvSP+7PmwJIXdC+W4AmTc9oU84GE=",
+      "Microsoft.AspNetCore.Components.wasm": "sha256-A+LcmBDaxwTZdPS8hPcEJ/cGyIGzlYZdkjwnI6S+pvA=",
+      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-zul40ry2OWsu8eO6GTrsdcSbFxRlL5YcH3mpKNMOn2U=",
+      "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-CJnAB0vecNnsdTMFjufveYYF2WVIbRuYKfoNF1OAEfs=",
       "Microsoft.Extensions.Configuration.Abstractions.wasm": "sha256-87sn2TYqgdZ95sXmavjKEzoEfMgHnYQ9LOvnMX+aZcI=",
       "Microsoft.Extensions.Configuration.Json.wasm": "sha256-Sxmy2ZS134URxbHEvdbS6NcQ3zXS7UWx/5ZPpwiW7FA=",
       "Microsoft.Extensions.Configuration.wasm": "sha256-jYqHUZ07UYWc8POk7xhas6xQYH7t1qoTcylqoDqncJk=",
@@ -30,11 +30,11 @@
       "Microsoft.Extensions.Logging.wasm": "sha256-8BH+kQfjYuZWxprOICXJ4+tU0OdJOYDKN7G0S3zYYHI=",
       "Microsoft.Extensions.Options.wasm": "sha256-ezKJDNjeghS/qMdQmUpBPdH7bCDLrqkNqS6RsLxlpOY=",
       "Microsoft.Extensions.Primitives.wasm": "sha256-Ms2HR5Gpug/0uRAzdk4SUNT76Ml3CjFv9Jo+dUIMGac=",
-      "Microsoft.JSInterop.wasm": "sha256-Itu7dicw+SMh8t5ofmKl2bOhp3fiGMr6+APVIh/2c1Q=",
-      "Microsoft.JSInterop.WebAssembly.wasm": "sha256-nJo9AftA2/mHxtXapqHsgjzQgIHOpue2DnVtxkgTSME=",
+      "Microsoft.JSInterop.wasm": "sha256-RYe7KFnyONMSZhTpZBX+tJ3g/RtznwPEYjjFqz7p9pc=",
+      "Microsoft.JSInterop.WebAssembly.wasm": "sha256-ZyIqQss3I64BQC2gc7JEDrkYq14vXKEXuw5vBJ5oFYM=",
       "netstandard.wasm": "sha256-L2Nwmvsga46i42659etM3ejs7C2y/+YuSbPzE/ILQP0=",
       "RadioBrowserNet.wasm": "sha256-smdn+zxA3IbzURHNwK2laI0SOBjjAK81xFa31GuJ6D8=",
-      "RadioNet.wasm": "sha256-oBMgqpv52oQnkKKtI7oFlrxQMx/DqsZATMbQ6w78zbg=",
+      "RadioNet.wasm": "sha256-H2RctWG6/GlOnxXIcsZEYnQr88FtCnlLVWKYDFRUXxo=",
       "System.Collections.Concurrent.wasm": "sha256-S7CEfUeGHeZmSv+KmPptAaCsz6GvuUxbL50qzKkgDes=",
       "System.Collections.NonGeneric.wasm": "sha256-hYwQfCavxnKjAdbzca708h7wiRxp51b2p0ZX+Rdyf3E=",
       "System.Collections.Specialized.wasm": "sha256-8bxgtvlGdu6O6+aJxwuQNjkgiEJXJ2C1O5zaCJIQ1nM=",
