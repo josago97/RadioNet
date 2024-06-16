@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Net.Http.Json;
 using Microsoft.AspNetCore.Components;
-using RadioBrowser;
+using RadioBrowserNet;
 using RadioNet.Views.Components;
 
 namespace RadioNet.Views.Pages;
@@ -49,7 +49,7 @@ public partial class Index
         {
             Name = Query,
             Countrycode = Country,
-            Order = "votes",
+            Order = StationOrders.Votes,
             Reverse = true,
         };
 
